@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="286f728b-f879-4fd8-b494-a1802ef03cd5" name="Changes" comment="implement shared service">
+    <list default="true" id="286f728b-f879-4fd8-b494-a1802ef03cd5" name="Changes" comment="refector some changes">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/Shared/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/Shared/header/header.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/app.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/app.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/component/carts/carts.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/component/carts/carts.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/component/carts/carts.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/component/carts/carts.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/component/carts/carts.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/component/carts/carts.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/component/product-details/product-details.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/component/product-details/product-details.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/component/product-details/product-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/component/product-details/product-details.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/component/product-details/product-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/component/product-details/product-details.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/component/products/products.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/component/products/products.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/component/products/products.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/component/products/products.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/component/products/products.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/component/products/products.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,24 +28,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/New folder/full_project&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;F:\\New folder\\e-comerce\\front-end\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.BackEndApplication.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/New folder/e-comerce/front-end",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "npm.start.executor": "Debug",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "F:\\New folder\\e-comerce\\front-end\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -67,6 +60,19 @@
     </option>
   </component>
   <component name="RunManager" selected="npm.start">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="e-comerce" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="e-comerce" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BackEndApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="back-end" />
@@ -110,6 +116,8 @@
       <workItem from="1720733507491" duration="19795000" />
       <workItem from="1720908608903" duration="3175000" />
       <workItem from="1720911943851" duration="375000" />
+      <workItem from="1721068646554" duration="710000" />
+      <workItem from="1721069380509" duration="591000" />
     </task>
     <task id="LOCAL؜-٠٠٠٠١" summary="install bootstrap package and fontawesome">
       <option name="closed" value="true" />
@@ -239,7 +247,15 @@
       <option name="project" value="LOCAL؜" />
       <updated>1720910406964</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL؜-٠٠٠١٧" summary="refector some changes">
+      <option name="closed" value="true" />
+      <created>1721069141106</created>
+      <option name="number" value="٠٠٠١٧" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠١٧" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1721069141106</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +277,7 @@
     <MESSAGE value="implement spinner component" />
     <MESSAGE value="implement product model" />
     <MESSAGE value="implement shared service" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement shared service" />
+    <MESSAGE value="refector some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="refector some changes" />
   </component>
 </project>
