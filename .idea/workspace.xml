@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="286f728b-f879-4fd8-b494-a1802ef03cd5" name="Changes" comment="refector some changes">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="286f728b-f879-4fd8-b494-a1802ef03cd5" name="Changes" comment="implement application properties">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.BackEndApplication.executor": "Run",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/New folder/e-comerce/front-end",
+    "last_opened_file_path": "F:/New folder/e-comerce",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,6 +53,7 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "npm.start.executor": "Debug",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "F:\\New folder\\e-comerce\\front-end\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
@@ -117,7 +125,9 @@
       <workItem from="1720908608903" duration="3175000" />
       <workItem from="1720911943851" duration="375000" />
       <workItem from="1721068646554" duration="710000" />
-      <workItem from="1721069380509" duration="591000" />
+      <workItem from="1721069380509" duration="1556000" />
+      <workItem from="1721078950511" duration="195000" />
+      <workItem from="1721079243602" duration="1749000" />
     </task>
     <task id="LOCAL؜-٠٠٠٠١" summary="install bootstrap package and fontawesome">
       <option name="closed" value="true" />
@@ -255,7 +265,15 @@
       <option name="project" value="LOCAL؜" />
       <updated>1721069141106</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL؜-٠٠٠١٨" summary="implement application properties">
+      <option name="closed" value="true" />
+      <created>1721070040244</created>
+      <option name="number" value="٠٠٠١٨" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠١٨" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1721070040244</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +296,7 @@
     <MESSAGE value="implement product model" />
     <MESSAGE value="implement shared service" />
     <MESSAGE value="refector some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="refector some changes" />
+    <MESSAGE value="implement application properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement application properties" />
   </component>
 </project>
