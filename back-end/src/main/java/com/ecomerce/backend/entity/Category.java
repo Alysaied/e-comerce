@@ -1,7 +1,10 @@
 package com.ecomerce.backend.entity;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.Data;
+
+import java.util.List;
 
 @Table(name="Categories")
 @Entity
@@ -14,5 +17,10 @@ public class Category {
 
     @Column(name="name")
     private String Name;
+
+
+    @JsonManagedReference
+    @OneToMany(mappedBy = "category")
+    private List<Products>products;
 
 }
